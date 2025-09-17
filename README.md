@@ -10,18 +10,19 @@
 > **Enterprise-ready Visual Odometry system with real-time 3D visualization, multi-algorithm support, and comprehensive dataset management. Deployed in production environments for autonomous vehicles, robotics, and AR/VR applications.**
 
 ## 📋 Table of Contents
-- [🎯 Overview](#overview)
-- [🌟 Key Features](#key-features)
-- [🏭 Industrial Applications](#industrial-applications)
-- [🚀 Quick Start](#quick-start)
-- [📊 Performance Benchmarks](#performance-benchmarks)
-- [🔧 Technical Architecture](#technical-architecture)
-- [📚 API Documentation](#api-documentation)
-- [🔬 Algorithm Comparison](#algorithm-comparison)
-- [🌐 Web Interface](#web-interface)
-- [📈 Results & Visualization](#results--visualization)
-- [🏗️ Deployment Options](#deployment-options)
-- [🤝 Contributing](#contributing)
+- [🎯 Overview](#-overview)
+- [🌟 Key Features](#-key-features)
+- [🏭 Industrial Applications](#-industrial-applications)
+- [🚀 Quick Start](#-quick-start)
+- [📊 Performance Benchmarks](#-performance-benchmarks)
+- [🔧 Technical Architecture](#-technical-architecture)
+- [📚 API Documentation](#-api-documentation)
+- [🔬 Algorithm Comparison](#-algorithm-comparison)
+- [🌐 Web Interface](#-web-interface)
+- [📈 Results & Visualization](#-results--visualization)
+- [🏗️ Deployment Options](#️-deployment-options)
+- [🔍 Troubleshooting](#-troubleshooting)
+- [🤝 Contributing](#-contributing)
 
 ---
 
