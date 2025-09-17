@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  visual-odometry-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./datasets:/app/datasets
+      - ./backend:/app/backend
+      - ./frontend:/app/frontend
+    environment:
+      - PYTHONPATH=/app/backend
+      - ENVIRONMENT=development
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - vo-network
+
+networks:
+  vo-network:
+    driver: bridge
+
+volumes:
+  datasets-data:
+    driver: local
