@@ -369,7 +369,7 @@ The web interface provides a comprehensive control center for visual odometry op
 
 ### 🎯 Trajectory Accuracy
 
-Our system achieves industry-leading accuracy across multiple benchmarks:
+This system achieves industry-leading accuracy across multiple benchmarks:
 
 #### KITTI Odometry Benchmark
 - **Sequence 00**: 0.81% translation error, 0.31 deg/100m rotation error
@@ -545,7 +545,7 @@ lsof -ti:8000 | xargs kill -9    # Linux/Mac
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help is appreciated.
+Contributions from the community are welcome! Whether fixing bugs, adding features, or improving documentation, all help is appreciated.
 
 ### 🚀 Getting Started
 
